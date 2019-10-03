@@ -3,7 +3,7 @@
 //  BahamaAirLoginScreen
 //
 //  Created by Stellar Mobile on 16/09/19.
-//  Copyright © 2019 Razeware LLC. All rights reserved.
+//  Copyright © Oct 2019 Razeware LLC. All rights reserved.
 //
 
 import UIKit
