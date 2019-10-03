@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4283946301BB90D2ECAC5CBC /* Pods_BahamaAirLoginScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFB50C908E29FB965649AFB /* Pods_BahamaAirLoginScreen.framework */; };
+		9C4319691A0C32D80085829B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4319681A0C32D80085829B /* AppDelegate.swift */; };
+		9C43196B1A0C32D80085829B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43196A1A0C32D80085829B /* ViewController.swift */; };
+		9C43196E1A0C32D90085829B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C43196C1A0C32D90085829B /* Main.storyboard */; };
+		9C4319701A0C32D90085829B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C43196F1A0C32D90085829B /* Images.xcassets */; };
+		9C4319731A0C32D90085829B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4319711A0C32D90085829B /* LaunchScreen.xib */; };
+		BA6220972334E87F00638955 /* ACTabScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6220952334E87E00638955 /* ACTabScrollView.swift */; };
+		BA6220982334E87F00638955 /* ACTabScrollView+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6220962334E87E00638955 /* ACTabScrollView+Protocol.swift */; };
+		BA62209A2334EB8900638955 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6220992334EB8900638955 /* MockData.swift */; };
+		BA62209D2334EC1100638955 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA62209B2334EC1100638955 /* DemoViewController.swift */; };
+		BA62209E2334EC1100638955 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA62209C2334EC1100638955 /* ContentViewController.swift */; };
+		BAD0ADAD232FFB4400551175 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD0ADAC232FFB4400551175 /* HomeViewController.swift */; };
+		BAD0ADAF232FFBEE00551175 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD0ADAE232FFBEE00551175 /* AdminViewController.swift */; };
+		BAD0ADB1232FFC9100551175 /* AcademicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD0ADB0232FFC9100551175 /* AcademicsViewController.swift */; };
+		BAD0ADB3232FFCE400551175 /* RoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD0ADB2232FFCE400551175 /* RoutineViewController.swift */; };
+		BAD0ADB5232FFD1100551175 /* WellBeingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD0ADB4232FFD1100551175 /* WellBeingViewController.swift */; };
+		BAD0ADB72330027500551175 /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD0ADB62330027500551175 /* TTSegmentedControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B50C8765E77AF4B2019D391 /* Pods-BahamaAirLoginScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BahamaAirLoginScreen.release.xcconfig"; path = "Target Support Files/Pods-BahamaAirLoginScreen/Pods-BahamaAirLoginScreen.release.xcconfig"; sourceTree = "<group>"; };
+		1EFB50C908E29FB965649AFB /* Pods_BahamaAirLoginScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BahamaAirLoginScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A71B2904ECCC83E70C8E67 /* Pods-BahamaAirLoginScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BahamaAirLoginScreen.debug.xcconfig"; path = "Target Support Files/Pods-BahamaAirLoginScreen/Pods-BahamaAirLoginScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4319631A0C32D80085829B /* BahamaAirLoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahamaAirLoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4319671A0C32D80085829B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4319681A0C32D80085829B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C43196A1A0C32D80085829B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C43196D1A0C32D90085829B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C43196F1A0C32D90085829B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C4319721A0C32D90085829B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA6220952334E87E00638955 /* ACTabScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTabScrollView.swift; sourceTree = "<group>"; };
+		BA6220962334E87E00638955 /* ACTabScrollView+Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ACTabScrollView+Protocol.swift"; sourceTree = "<group>"; };
+		BA6220992334EB8900638955 /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		BA62209B2334EC1100638955 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		BA62209C2334EC1100638955 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		BAD0ADAC232FFB4400551175 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BAD0ADAE232FFBEE00551175 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		BAD0ADB0232FFC9100551175 /* AcademicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicsViewController.swift; sourceTree = "<group>"; };
+		BAD0ADB2232FFCE400551175 /* RoutineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineViewController.swift; sourceTree = "<group>"; };
+		BAD0ADB4232FFD1100551175 /* WellBeingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellBeingViewController.swift; sourceTree = "<group>"; };
+		BAD0ADB62330027500551175 /* TTSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTSegmentedControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C4319601A0C32D80085829B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4283946301BB90D2ECAC5CBC /* Pods_BahamaAirLoginScreen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B76E0126AB58EBF83B857D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84A71B2904ECCC83E70C8E67 /* Pods-BahamaAirLoginScreen.debug.xcconfig */,
+				0B50C8765E77AF4B2019D391 /* Pods-BahamaAirLoginScreen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		505E38748FFED796EB26C542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EFB50C908E29FB965649AFB /* Pods_BahamaAirLoginScreen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C43195A1A0C32D80085829B = {
+			isa = PBXGroup;
+			children = (
+				9C4319651A0C32D80085829B /* BahamaAirLoginScreen */,
+				9C4319641A0C32D80085829B /* Products */,
+				3B76E0126AB58EBF83B857D2 /* Pods */,
+				505E38748FFED796EB26C542 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4319641A0C32D80085829B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4319631A0C32D80085829B /* BahamaAirLoginScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4319651A0C32D80085829B /* BahamaAirLoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BA6220952334E87E00638955 /* ACTabScrollView.swift */,
+				BA6220962334E87E00638955 /* ACTabScrollView+Protocol.swift */,
+				9C4319681A0C32D80085829B /* AppDelegate.swift */,
+				9C43196A1A0C32D80085829B /* ViewController.swift */,
+				9C43196C1A0C32D90085829B /* Main.storyboard */,
+				BAD0ADB4232FFD1100551175 /* WellBeingViewController.swift */,
+				BAD0ADB2232FFCE400551175 /* RoutineViewController.swift */,
+				BAD0ADB0232FFC9100551175 /* AcademicsViewController.swift */,
+				BAD0ADAE232FFBEE00551175 /* AdminViewController.swift */,
+				BAD0ADAC232FFB4400551175 /* HomeViewController.swift */,
+				BA62209C2334EC1100638955 /* ContentViewController.swift */,
+				BA62209B2334EC1100638955 /* DemoViewController.swift */,
+				BA6220992334EB8900638955 /* MockData.swift */,
+				BAD0ADB62330027500551175 /* TTSegmentedControl.swift */,
+				9C43196F1A0C32D90085829B /* Images.xcassets */,
+				9C4319711A0C32D90085829B /* LaunchScreen.xib */,
+				9C4319661A0C32D80085829B /* Supporting Files */,
+			);
+			path = BahamaAirLoginScreen;
+			sourceTree = "<group>";
+		};
+		9C4319661A0C32D80085829B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C4319671A0C32D80085829B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C4319621A0C32D80085829B /* BahamaAirLoginScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4319821A0C32D90085829B /* Build configuration list for PBXNativeTarget "BahamaAirLoginScreen" */;
+			buildPhases = (
+				F57E23AD146D42E8629BA467 /* [CP] Check Pods Manifest.lock */,
+				9C43195F1A0C32D80085829B /* Sources */,
+				9C4319601A0C32D80085829B /* Frameworks */,
+				9C4319611A0C32D80085829B /* Resources */,
+				854B65C2A4221B190F494A15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BahamaAirLoginScreen;
+			productName = BahamaAirLoginScreen;
+			productReference = 9C4319631A0C32D80085829B /* BahamaAirLoginScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C43195B1A0C32D80085829B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					9C4319621A0C32D80085829B = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 28RQT77756;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 9C43195E1A0C32D80085829B /* Build configuration list for PBXProject "BahamaAirLoginScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 9C43195A1A0C32D80085829B;
+			productRefGroup = 9C4319641A0C32D80085829B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4319621A0C32D80085829B /* BahamaAirLoginScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4319611A0C32D80085829B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C43196E1A0C32D90085829B /* Main.storyboard in Resources */,
+				9C4319731A0C32D90085829B /* LaunchScreen.xib in Resources */,
+				9C4319701A0C32D90085829B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		854B65C2A4221B190F494A15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BahamaAirLoginScreen/Pods-BahamaAirLoginScreen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome-iOS/FontAwesome_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/InputBarAccessoryView/InputBarAccessoryView.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/KDCalendar/KDCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MessagePack.swift/MessagePack.framework",
+				"${BUILT_PRODUCTS_DIR}/ScalingCarousel/ScalingCarousel.framework",
+				"${BUILT_PRODUCTS_DIR}/TTSegmentedControl/TTSegmentedControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputBarAccessoryView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessagePack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScalingCarousel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTSegmentedControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BahamaAirLoginScreen/Pods-BahamaAirLoginScreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F57E23AD146D42E8629BA467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BahamaAirLoginScreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C43195F1A0C32D80085829B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD0ADB72330027500551175 /* TTSegmentedControl.swift in Sources */,
+				BAD0ADAF232FFBEE00551175 /* AdminViewController.swift in Sources */,
+				BAD0ADB3232FFCE400551175 /* RoutineViewController.swift in Sources */,
+				BA62209E2334EC1100638955 /* ContentViewController.swift in Sources */,
+				BA62209D2334EC1100638955 /* DemoViewController.swift in Sources */,
+				9C43196B1A0C32D80085829B /* ViewController.swift in Sources */,
+				9C4319691A0C32D80085829B /* AppDelegate.swift in Sources */,
+				BA6220982334E87F00638955 /* ACTabScrollView+Protocol.swift in Sources */,
+				BAD0ADB5232FFD1100551175 /* WellBeingViewController.swift in Sources */,
+				BAD0ADAD232FFB4400551175 /* HomeViewController.swift in Sources */,
+				BAD0ADB1232FFC9100551175 /* AcademicsViewController.swift in Sources */,
+				BA62209A2334EB8900638955 /* MockData.swift in Sources */,
+				BA6220972334E87F00638955 /* ACTabScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C43196C1A0C32D90085829B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C43196D1A0C32D90085829B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C4319711A0C32D90085829B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4319721A0C32D90085829B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C4319801A0C32D90085829B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Debug;
+		};
+		9C4319811A0C32D90085829B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C4319831A0C32D90085829B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A71B2904ECCC83E70C8E67 /* Pods-BahamaAirLoginScreen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 28RQT77756;
+				INFOPLIST_FILE = BahamaAirLoginScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycampuslive.stellar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9C4319841A0C32D90085829B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B50C8765E77AF4B2019D391 /* Pods-BahamaAirLoginScreen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 28RQT77756;
+				INFOPLIST_FILE = BahamaAirLoginScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycampuslive.stellar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C43195E1A0C32D80085829B /* Build configuration list for PBXProject "BahamaAirLoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4319801A0C32D90085829B /* Debug */,
+				9C4319811A0C32D90085829B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4319821A0C32D90085829B /* Build configuration list for PBXNativeTarget "BahamaAirLoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4319831A0C32D90085829B /* Debug */,
+				9C4319841A0C32D90085829B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C43195B1A0C32D80085829B /* Project object */;
+}
